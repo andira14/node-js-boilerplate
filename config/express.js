@@ -1,6 +1,6 @@
 import express from 'express';
 import route from '../server/routes';
-import { Response } from '../server/class/util/response.class';
+import Response from '../server/class/util/response.class';
 
 require('dotenv').config();
 
@@ -11,7 +11,7 @@ const baseUrl = '/api';
 app.use(baseUrl, route);
 
 app.use((err, req, res, next) => {
-  console.error(err);
+  console.info(err);
 
   return next(err.stack);
 });
