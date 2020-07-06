@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist && babel --ignore node_modules/*,.history/*,babel.config.json,.gitignore,.env,.env-example,.git ./ -d dist --copy-files",
-    "start": "npm run build && node dist/index.js",
+    "start": "gulp",
+    "serve": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,14 +20,22 @@
   "homepage": "https://github.com/andira14/oreon#readme",
   "dependencies": {
     "@babel/polyfill": "^7.10.4",
+    "delete": "^1.1.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-run": "^1.7.1",
+    "jsonwebtoken": "^8.5.1",
     "sequelize": "^6.3.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
+    "eslint": "^7.4.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-nodemon": "^2.5.0",
     "jest": "^26.1.0",
     "rimraf": "^3.0.2",
     "sequelize-cli": "^6.2.0"
