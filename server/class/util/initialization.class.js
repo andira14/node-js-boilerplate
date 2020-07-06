@@ -1,12 +1,15 @@
-require('dotenv').config();
 import jwt from 'jsonwebtoken';
 
-export class Initialization {
-    constructor(jwt){
-        this.jwt = jwt;
-    }
+require('dotenv').config();
 
-    getJwtData(){
-        return jwt.verify(this.jwt, process.env.JWT_TOKEN)
-    }
+class Initialization {
+  constructor(token) {
+    this.token = token;
+  }
+
+  getJwtData() {
+    return jwt.verify(this.jwt, process.env.JWT_TOKEN);
+  }
 }
+
+export default Initialization;

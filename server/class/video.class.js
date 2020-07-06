@@ -1,5 +1,7 @@
-export class Video{
-    constructor(videoId){
-        this.videoId = videoId;
-    }
+class Video {
+  constructor(videoId) {
+    this.videoId = videoId;
+  }
 }
+
+export default Video;
