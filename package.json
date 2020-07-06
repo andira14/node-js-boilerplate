@@ -1,0 +1,30 @@
+{
+  "name": "oreon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./ -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andira14/oreon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andira14/oreon/issues"
+  },
+  "homepage": "https://github.com/andira14/oreon#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "sequelize": "^6.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "sequelize-cli": "^6.2.0"
+  }
+}

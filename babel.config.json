@@ -1,0 +1,4 @@
+{
+    "presets": ["@babel/env"],
+    "ignore": ["./node_modules", ".gitignore", ".history", "package-lock.json"]
+}
