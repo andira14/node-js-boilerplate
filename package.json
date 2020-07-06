@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel ./ -d dist",
+    "build": "rimraf dist && babel --ignore node_modules/*,.history/*,babel.config.json,.gitignore,.env,.env-example,.git ./ -d dist --copy-files",
+    "start": "npm run build && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,12 +20,16 @@
   "homepage": "https://github.com/andira14/oreon#readme",
   "dependencies": {
     "@babel/polyfill": "^7.10.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "sequelize": "^6.3.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
+    "jest": "^26.1.0",
+    "rimraf": "^3.0.2",
     "sequelize-cli": "^6.2.0"
   }
 }
