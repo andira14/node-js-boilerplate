@@ -1,6 +1,6 @@
 {
   "name": "boilerplate",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,8 @@
   "homepage": "https://github.com/andira14/oreon#readme",
   "dependencies": {
     "@babel/polyfill": "^7.10.4",
+    "body-parser": "^1.19.0",
+    "core-js": "^3.6.5",
     "delete": "^1.1.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
