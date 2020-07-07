@@ -1,4 +1,5 @@
 import express from 'express';
+import bodyParser from 'body-parser';
 import route from '../server/routes';
 import Response from '../server/class/util/response.class';
 
@@ -7,6 +8,9 @@ require('dotenv').config();
 const app = express();
 
 const baseUrl = '/api';
+
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
 
 app.use(baseUrl, route);
 
