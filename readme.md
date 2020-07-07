@@ -4,21 +4,21 @@ This is my own simple custom NodeJS boilerplate mainly for my personal projects.
 I used ES2015 to code and Airbnb-lint as its linter.
 
 ## Spec
-    1. [NodeJS](https://nodejs.org/en/)
+    1. NodeJS <https://nodejs.org/en/>
     2. ES2015 compatible
 
 ## Dependencies
-    1. [Express](https://expressjs.com/)
-    2. [Sequelize](https://sequelize.org/)
+    1. Express <https://expressjs.com/>
+    2. Sequelize <https://sequelize.org/>
     3. Dotenv
     4. JWT
 
 ## Dev-Dependencies
-    1. [Babel](https://babeljs.io/)
+    1. Babel <https://babeljs.io/>
     2. Eslint (Airbnb)
-    3. [Gulp](https://gulpjs.com/)
-    4. [Sequelize-cli](https://sequelize.org/)
-    5. [Nodemon](https://nodemon.io/)
+    3. Gulp <https://gulpjs.com/>
+    4. Sequelize-cli <https://sequelize.org/>
+    5. Nodemon <https://nodemon.io/>
 
 ## How to use
 
