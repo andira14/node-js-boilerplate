@@ -4,27 +4,27 @@ This is my own simple custom NodeJS boilerplate mainly for my personal projects.
 I used ES2015 to code and Airbnb-lint as its linter.
 
 ## Spec
-    1. NodeJS [^1]
+    1. [NodeJS](https://nodejs.org/en/)
     2. ES2015 compatible
 
 ## Dependencies
-    1. Express [^2]
-    2. Sequelize [^3]
+    1. [Express](https://expressjs.com/)
+    2. [Sequelize](https://sequelize.org/)
     3. Dotenv
     4. JWT
 
 ## Dev-Dependencies
-    1. Babel [^4]
+    1. [Babel](https://babeljs.io/)
     2. Eslint (Airbnb)
-    3. Gulp [^5]
-    4. Sequelize-cli [^3]
-    5. Nodemon [^6]
+    3. [Gulp](https://gulpjs.com/)
+    4. [Sequelize-cli](https://sequelize.org/)
+    5. [Nodemon](https://nodemon.io/)
 
 ## How to use
 
 Clone this project to your local computer
 
-`$ git clone https://github.com/andira14/node-js-boilerplate.git`
+`$ git clone https://github.com/andira14/node-js-boilerplate.git <project_name>`
 
 and then just run
 
@@ -32,17 +32,13 @@ and then just run
 
 to install all the dependencies.
 
-duplicate .env-example and rename it to .env
+to config the environment config duplicate .env-example to .env
 
+`$ cp .env-example .env`
+
+and then configure .env to your database and server settings
 
 ## Change Log
 0.0.2 - Update readme
 
 0.0.1 - Initial version
-
-[^1]: https://nodejs.org/en/
-[^2]: https://expressjs.com/
-[^3]: https://sequelize.org/
-[^4]: https://babeljs.io/
-[^5]: https://gulpjs.com/
-[^6]: https://nodemon.io/
