@@ -9,6 +9,8 @@ const simplePagination = (page = 1, row = 10) => {
   if (page) {
     pagination.page = (page - 1) * pagination.row;
   }
+
+  return pagination;
 };
 
 export default {
