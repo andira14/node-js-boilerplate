@@ -3,6 +3,12 @@ require('dotenv').config();
 class Response {
   constructor(res) {
     this.res = res;
+    this.statusOk = 200;
+    this.statusCreated = 201;
+    this.statusBadRequest = 400;
+    this.statusForbidden = 403;
+    this.statusNotFound = 404;
+    this.statusInternalServerError = 500
   }
 
   contentSuccess(code, response) {
