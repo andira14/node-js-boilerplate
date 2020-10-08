@@ -37,14 +37,3 @@ to config the environment config duplicate .env-example to .env
 `$ cp .env-example .env`
 
 and then configure .env to your database and server settings
-
-## Change Log
-0.0.4 - Added return to simplePagination
-
-0.0.3 - Added body-parser
-      - Added core-js
-      - Added gulp-nodemon tasks
-
-0.0.2 - Update readme
-
-0.0.1 - Initial version
